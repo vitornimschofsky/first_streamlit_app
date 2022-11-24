@@ -50,7 +50,7 @@ except URLError as e:
 #streamlit.dataframe(fruityvice_normalized)
 
 #dont run anything past here while we troubleshoot
-streamlit.stop()
+
 
 streamlit.header("The Fruit Load List Contains:")
 #snowflake function
@@ -80,4 +80,5 @@ if streamlit.button('Add a fruit to the list'):
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
+streamlit.stop()
 
