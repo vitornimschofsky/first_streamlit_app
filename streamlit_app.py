@@ -46,10 +46,8 @@ except URLError as e:
       streamlit.error()
 
 
-# write your own comment -what does the next line do? 
-
 # write your own comment - what does this do?
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 
 #dont run anything past here while we troubleshoot
 streamlit.stop()
